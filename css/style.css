@@ -327,6 +327,10 @@ label:hover .seat:disabled + .seat__number::before{
     background-color: var(--green);
 }
 
+.reserved__type::before{
+    background-color: var(--grey);
+}
+
 .button{
     margin-left: auto;
     padding: 10px 30px;
